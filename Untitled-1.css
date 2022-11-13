@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.dekstop {
+    display: none;
+}
+.tablet {
+    display: none;
+}
+.img1 {
+    background-color: rgba(241, 103, 24, 1);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+}
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 150px;
+    margin-top: 23px;
+}
+.div2 {
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    display: flex;
+    width: 150px;
+    height: 48px;
+    justify-content: center;
+}
+.button1 {
+    border: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    background: none;
+}
+.div5 {
+    background-image: url(./typemaster-pre-launch-landing-page/starter-code/assets/mobile/image-keyboard.jpg);
+    width: 100%;
+    height: 291.66px;
+    background-position: right, top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position:relative ;
+    left: 43px;
+}
+.h11 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 327px;
+    color: rgba(22, 37, 66, 1);
+}
+.p1 {
+    width: 327px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(123, 139, 173, 1);
+}
+.button2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    background: none;
+    color: #FFFFFF;
+}
+.div6 {
+    width: 150px;
+    height: 48px;
+    background-color: #F16718;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.button3 {
+  color:  rgba(123, 139, 173, 1);
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+  background: none;
+}
+.div4 {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+}
+.div8 {
+    width: 144px ;
+    height: 226px;
+    background-color: #F16718;
+    background-size: cover;
+    position: relative;
+    left: -24px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.h3 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #162542;
+    text-align: center;
+}
+.p3 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    text-align: center;
+}
+.div10 {
+    display: flex;
+    flex-direction: column;
+}
+.div11 {
+    margin-bottom: 30px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 296px;
+}
+footer {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 96px;
+}
+.img01 {
+    width: 144px ;
+    height: 226px;
+    opacity: 0.5;
+}
+.div9 {
+    width: 220px;
+    height: 226px;
+    border-radius: 20px ;
+    overflow: hidden;
+}
+.img2 {
+    width: 220px;
+    height: 226px;
+}
+.div12 {
+    display: flex;
+}
+.div13 {
+    width: 95%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.img3 {
+    display: none;
+}
+.div14{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+}
+.div17 {
+    display: none;
+}
+.div15 {
+    display: none;
+}
+.img03 {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .div1 {
+        gap: 417px;
+    }
+    .div4 {
+        justify-content: space-evenly;
+        width: 100% ;
+        flex-direction: row;
+        height: 530px;
+    }
+    .div14 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 400px;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        left: 52px;
+    }
+    .div5 {
+        width: 478px;
+        height: 425px;
+        background-image: url(./typemaster-pre-launch-landing-page/starter-code/assets/tablet/image-keyboard.jpg);
+        background-size: cover;
+        position: relative;
+        left: 130px;
+    }
+    .h11 {
+        width: 339px;
+    }
+    .p1 {
+        width: 339px;
+    }
+    .div7 {
+        justify-content: space-between;
+    }
+    .div8 {
+        width: 214px;
+        height: 320px ;
+    }
+    .img3 {
+        display: inline-block;
+        opacity: 0.5;
+        width: 214px;
+        height: 320px ;
+    }
+    .img01 {
+        display: none;
+    }
+    .div9 {
+        width: 445px;
+        height:  320px;
+    }
+    .img2 {
+        width: 445px;
+        height:  320px;
+    }
+    .div13 {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .h3 {
+        text-align: start;
+        width: 255px;
+        height: 108px;
+    }
+    .p3 {
+        text-align: start;
+        width: 398px;
+        height: 78px;
+    }
+    .div10 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .div11 {
+        align-items: flex-start;
+    }
+    .p3 {
+        width: 281px;
+        height: 104px;
+    }
+    .h3 {
+        width: 281px;
+        height: 100px;
+    }
+    .div12 {
+        position: relative;
+        left: 31px;
+    }
+    .img05 {
+        size: fill;
+    }
+    
+}
+@media screen and (min-width: 1440px) {
+    .div1 {
+        gap: 530px;
+    }
+    .div5 {
+        background-image: url(./typemaster-pre-launch-landing-page/starter-code/assets/desktop/image-keyboard.jpg);
+        overflow: hidden;
+        left: 198px;
+    }
+    .div15 {
+        display: block;
+        position: relative;
+        left: 152px;
+
+    }
+    .div14 {
+        position: relative;
+        left: 164px; 
+        align-items: normal;
+    }
+    .p1 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        width: 445px;
+        height: 78px;
+    }
+    .h11 {
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .div13 {
+        flex-direction: column;
+        height: 480px;
+        justify-content: space-around;
+        position: relative;
+        left: -30px;
+    }
+    .div16 {
+        display: flex;
+        flex-direction: row;
+
+    }
+    .img3 {
+        display: none;
+    }
+    .div8 {
+        width: 255px;
+        height: 554px;
+    }
+    .img02 {
+        opacity: 0.5;
+        width: 255px;
+        height: 554px;
+    }
+    .img2 {
+        display: none;
+    }
+    .div9 {
+        height: 554px;
+        width: 445px;
+    }
+    .div17 {
+        display: block;
+        position: relative;
+        left: -50px;
+        top: 316px;
+    }
+    .div12 {
+        position: relative;
+        left: -100px;
+    }
+    .p3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        width: 255px;
+        height: 130px;
+    }
+    .div10 {
+        margin-top: 100px;
+        width: 100%;
+        gap: 100px;
+    }
+    .div11 {
+        height: 400px;
+        width: 200px;
+    }
+}
